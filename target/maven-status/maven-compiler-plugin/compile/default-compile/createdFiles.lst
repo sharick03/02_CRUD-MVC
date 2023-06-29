@@ -1,0 +1,7 @@
+model\BolsilloDAO.class
+controller\Bolsillo.class
+model\UsuarioDAO.class
+model\UsuarioVO.class
+controller\Usuario.class
+model\BolsilloVO.class
+model\Conexion.class

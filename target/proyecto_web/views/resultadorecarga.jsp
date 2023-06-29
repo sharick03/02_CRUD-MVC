@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!DOCTYPE html> <!--Versión 5 HTML-->
+<html>
+<head>
+	<title>Bolsillo Digital</title>
+	<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+        <a class="btn" href="bolsillo?accion=dashboard"><button>Volver</button></a>
+    </header>
+    <div class="container-card">
+        <div class="card">
+            <div class="contenido-card">
+                <h3>Recarga realizada con exito</h3>
+                <h3>Su saldo es: <%=request.getAttribute("consultar")%></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
